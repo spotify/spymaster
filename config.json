@@ -1,0 +1,12 @@
+{
+  "collectors": [
+    {"import": "spymaster.collectors.pinger",
+      "collector": "Pinger",
+      "config": {}},
+    {"collector": "Pinger",
+      "config": {"wait": 1}},
+    {"import": "spymaster.collectors",
+      "collector": "Pinger",
+      "config": {"wait": 2}}
+  ]
+}
